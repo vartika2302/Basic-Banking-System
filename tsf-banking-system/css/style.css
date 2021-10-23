@@ -1,0 +1,167 @@
+body{
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    line-height: 1.7;
+    word-spacing: 3px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat",sans-serif;
+}
+
+/* Headings */
+.big-heading{
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.med-heading{
+    font-family: "Montserrat",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* containers */
+.container-fluid{
+    padding: 3% 12%;
+}
+
+/* sections */
+.white-section{
+    background-color: white;
+    color: #172774;
+}
+
+.coloured-section{
+    background-color: #5c7aea;
+    color: white;
+}
+
+/* navbar */
+.navbar{
+    padding: 0 0 2rem;
+}
+
+.navbar-brand{
+    font-family: "Poppins";
+    font-weight: 3rem;
+    font-weight: bold;
+    color: #172774;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    color: #172774;
+}
+
+/* Title */
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-image{
+    width: 95%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+/* about us section */
+#about-us .container-fluid{
+    display: flex;
+}
+.about-us-img{
+    width: 35%;
+    border-radius: 50%;
+}
+.about-us-description{
+    padding-left: 5%;
+}
+
+/* Features section */
+
+.feature-box{
+    padding: 3% 4%;
+}
+.features-img{
+    width: 80%;
+}
+#features-description{
+    padding-top: 12%;
+}
+.third{
+    padding-top: 20%;
+}
+/* Testimonials section */
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 50%;
+    margin: 3% auto;
+}
+
+/* Footer section */
+#footer{
+    color: grey;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Buttons */
+.home-btns{
+    background-color: #172774;
+    color: white;
+    border-style: none;
+}
+
+
+/* media queries home page */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: relative;
+        right: 10%;
+    }
+    #about-us .container-fluid{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-us-img{
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .third{
+        padding-top: 0;
+    }
+}
+
+
+
+/* Registration page css */
+#register-container{
+    padding-top: 0;
+}
+
+#register-img{
+    position: relative;
+    width: 95%;
+    left: 0.2rem;
+}
+
+#fluid-container{
+    margin-top: -40px;
+    padding-top: 0;
+}
